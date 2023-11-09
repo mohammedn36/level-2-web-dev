@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haunted House of Horrors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="story-block">
+            <h1>Welcome to the Haunted House of Horrors!</h1>
+            <p>The bar at the top is your health bar. You can always come back to the living room to check your health. You start with 100, then lose depending on what you choose. good luck!</p>
+            <h2>You are currently in the living room, you can go right to find the game room,
+                or go up the chimney for the fun room!</h2>
+            <img src="images/livingroom.webp" alt="Spooky Living Room">
+        </div>
+        <div class="decision-block">
+            <p>Where will you go?</p>
+            <a href="gameroomindex.html" class="button">Go to the Game Room</a>
+            <a href="funroomindex.html" class="button">Go to the Fun Room</a>
+            <a href="basement.html" class="button">Step on the loose tile</button>
+            </a>
+            <span class="reveal-on-click button">Click here for a secret</span>
+        </div>
+        <div class="hidden" id="secret">
+            <p>The ghosts of the house are afraid of mirrors.</p>
+        </div>
+        <a href="room1index.html" class="buttonBeg">Back to the Living Room</a>
+        <button class = "button" onclick="resetHealth()">Reset Game</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

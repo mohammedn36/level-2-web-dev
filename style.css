@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: #280c3a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.story-block,
+.decision-block {
+    margin: 10px 0;
+}
+
+.decision-block .button, .decision-block .buttonBeg, .decision-block a.button {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 1px; 
+    margin-bottom: 10px; 
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.reveal-on-click {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.buttonBeg{
+    background-color: #0054ba;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #005f5f;
+}

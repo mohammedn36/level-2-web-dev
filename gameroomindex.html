@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haunted House of Horrors: Game Room</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="story-block">
+            <h2>You find yourself standing in a creepy game room. Not what you expected huh?
+                There's an ominous looking door leading to a dark corridor.</h2>
+            <img src="images/gameroom.jpg" alt="Creepy Game Room">
+        </div>
+        <div class="decision-block">
+            <p>Where will you go?</p>
+            <a href="atticindex.html" class="button">Go to the attic</a> 
+            <a href="hallwayindex.html" class="button">Go to the hallway</a>
+            <span class="reveal-on-click button">Click here for a secret</span>
+        </div>
+        <div class="hidden" id="secret">
+            <p>The ghosts enjoy playing chess.</p>
+        </div>
+        <a href="room1index.html" class="buttonBeg">Back to the Living Room</a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

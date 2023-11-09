@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="story-block">
+            <h2>Oh no! The tile was a trap! You fell to the creepy basement. -10 health</h2>
+            <img src="images/basement.webp" alt="Creepy Game Room">
+        </div>
+        <div class="decision-block">
+            <p>Where will you go?</p>
+            <a href="witch.html" class="button">Enter the Witch Lair</a>
+            <a href="roofindex.html" class="button">Go up to the roof</a>
+            <span class="reveal-on-click button">Explore the basement</span>
+        </div>
+        <div class="hidden" id="secret">
+            <p>Damn what is that smell? You see a dead zombie body. Explore it?</p>
+            <a href="yes.html" class="button">Yes</a>
+            <button class = "button" onclick="displayText()">No</button>
+
+            <div id="textField" style="display: none;">
+              You sure you don't want to? You might find ghosts...
+            </div>
+
+        </div>
+        <a href="room1index.html" class="buttonBeg">Back to the Living Room</a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
